@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A2E0432283D1D10075CBB9 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A2E0422283D1D10075CBB9 /* State.swift */; };
+		42A2E0452283D6AD0075CBB9 /* StatePatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A2E0442283D6AD0075CBB9 /* StatePatternsTests.swift */; };
 		42D7F637227FD7E8005FB7AF /* DesignPatterns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D7F62D227FD7E8005FB7AF /* DesignPatterns.framework */; };
 		42D7F63C227FD7E8005FB7AF /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7F63B227FD7E8005FB7AF /* DesignPatternsTests.swift */; };
 		42D7F63E227FD7E8005FB7AF /* DesignPatterns.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D7F630227FD7E8005FB7AF /* DesignPatterns.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42A2E0422283D1D10075CBB9 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		42A2E0442283D6AD0075CBB9 /* StatePatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePatternsTests.swift; sourceTree = "<group>"; };
 		42D7F62D227FD7E8005FB7AF /* DesignPatterns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignPatterns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D7F630227FD7E8005FB7AF /* DesignPatterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatterns.h; sourceTree = "<group>"; };
 		42D7F631227FD7E8005FB7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42A2E0412283D1C10075CBB9 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				42A2E0422283D1D10075CBB9 /* State.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
 		42D7F623227FD7E8005FB7AF = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 		42D7F62F227FD7E8005FB7AF /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				42A2E0412283D1C10075CBB9 /* State */,
 				42D7F6792282D32B005FB7AF /* Observer */,
 				42D7F6742282C017005FB7AF /* Facade */,
 				42D7F66F2282AB7D005FB7AF /* Template */,
@@ -128,6 +141,7 @@
 				42D7F66D2282A62C005FB7AF /* DecoratorPatternsTests.swift */,
 				42D7F6722282BC63005FB7AF /* TemplatePatternsTests.swift */,
 				42D7F6772282C253005FB7AF /* FacadePatternsTests.swift */,
+				42A2E0442283D6AD0075CBB9 /* StatePatternsTests.swift */,
 				42D7F63D227FD7E8005FB7AF /* Info.plist */,
 			);
 			path = DesignPatternsTests;
@@ -302,6 +316,7 @@
 				42D7F65D22802478005FB7AF /* CashContext.swift in Sources */,
 				42D7F64F227FD99E005FB7AF /* OperationSub.swift in Sources */,
 				42D7F657228021AF005FB7AF /* CashNormal.swift in Sources */,
+				42A2E0432283D1D10075CBB9 /* State.swift in Sources */,
 				42D7F659228021DB005FB7AF /* CashReturn.swift in Sources */,
 				42D7F64B227FD8D3005FB7AF /* OperationProtocol.swift in Sources */,
 				42D7F64D227FD956005FB7AF /* OperationAdd.swift in Sources */,
@@ -323,6 +338,7 @@
 				42D7F66E2282A62C005FB7AF /* DecoratorPatternsTests.swift in Sources */,
 				42D7F6732282BC63005FB7AF /* TemplatePatternsTests.swift in Sources */,
 				42D7F65F228026B9005FB7AF /* StrategyPatternsTests.swift in Sources */,
+				42A2E0452283D6AD0075CBB9 /* StatePatternsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
